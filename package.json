@@ -1,0 +1,30 @@
+{
+  "name": "@mbsrc/package",
+  "version": "1.0.0",
+  "description": "An example package for a tutorial.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.esm.js",
+  "author": "mbsrc",
+  "license": "MIT",
+  "private": false,
+  "engineStrict": true,
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "example",
+    "package",
+    "tutorial"
+  ],
+  "homepage": "https://github.com/mbsrc/package#readme",
+  "bugs": {
+    "url": "https://github.com/mbsrc/package/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mbsrc/package.git"
+  }
+}
